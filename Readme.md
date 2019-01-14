@@ -9,7 +9,7 @@ PETYA
 ```java
 var log = new LoggerConfiguration()
     .WriteTo.Console()
-    .WriteTo.File("log.txt")
+    .WriteTo.File("logq.txt")
     .CreateLogger();
 
 log.Information("Hello, Serilog!");
